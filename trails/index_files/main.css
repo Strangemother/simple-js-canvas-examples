@@ -1,0 +1,184 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	line-height:26px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prata', serif;
+    font-weight: 700;
+    letter-spacing: inherit;
+}
+
+a{
+	transition: 0.5s;
+}
+header.page-header {
+    text-align: center;
+    background: inherit;
+}
+.no-feature-img {
+    height: 30px;
+}
+h1.entry-title {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+h2.widget-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav#site-navigation {
+    text-align: center;
+}
+nav#site-navigation ul a{
+    text-align: left;
+}
+.site-title a{
+	color: #800080;
+}
+/*Theme bluegrey style*/
+.theme-purple a#clickTop:hover,
+html body.theme-purple .slicknav_menu,
+html body.theme-purple .slicknav_menu .slicknav_nav,
+html body.theme-purple .slicknav_menu .slicknav_btn,
+.theme-purple nav#site-navigation,
+.theme-purple button, 
+.theme-purple input[type="button"],
+.theme-purple input[type="reset"], 
+.theme-purple input[type="submit"],
+.theme-purple .site-footer,
+html body.theme-purple a.more-link:hover{
+	background-color:#C3395B;
+}
+html body.theme-purple a.more-link:hover{
+	color:#fff;
+}
+.theme-purple footer.entry-footer i,
+.theme-purple .entry-meta span i,
+.theme-purple .entry-title a,
+.theme-purple h2.widget-title,
+.theme-purple .post-meta i,
+.theme-purple a#clickTop i,
+html body.theme-purple a.more-link {
+    color: #C3395B;
+}
+.theme-purple .entry-title a:hover{
+	color:#8E2943
+}
+.theme-purple .main-navigation ul li ul{
+	background-color:#C94566
+}
+.theme-purple .main-navigation ul li li:hover > a,
+.theme-purple .widget .search-form input.search-submit:hover{
+	background-color:#D56D87
+}
+
+.site-title {
+    line-height: 61px;
+	font-size:50px;
+}
+header.baby-head-img .site-branding{
+	background: transparent !important;
+}
+header.baby-head-img .site-branding
+.baby-head-img p.site-description{
+	color: inherit;
+}
+.baby-head-img p.site-description {
+    color: #000;
+}
+.site-header, .hentry, .comments-area, .site-main section, .site-main .post-navigation, .site-main .posts-navigation, .paging-navigation, .widget {
+    background: #fff;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.20);
+}
+.main-navigation ul li ul {
+    transition: 0.5s;
+}
+.site-content .widget-area {
+    overflow: inherit;
+}
+h2.entry-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 40px;
+}
+.site-main article {
+    margin-bottom: 80px;
+	padding:0
+}
+header.entry-header,
+.entry-content{
+	padding:0 30px 30px 30px
+}
+.baby-feature-image {
+    margin: 0 0 20px;
+}
+.top-cat.post-meta {
+    margin-bottom: 15px;
+}
+aside section.widget {
+    margin-bottom: 50px;
+}
+.entry-meta span a, .entry-footer span a{
+	font-size: inherit;
+}
+.post-meta span {
+    margin-right: 5px;
+}
+.post-meta, 
+.post-meta i, 
+.post-meta a,
+.entry-meta,
+.entry-meta i, 
+.entry-meta a {
+    font-size: 12px;
+    color: #888;
+}
+.site-main article.search-items {
+    padding: 20px;
+}
+.post-meta a:hover {
+    color: #222;
+}
+.post-meta i {
+    margin-right: 2px;
+}
+.redmore-btn {
+    margin-bottom: 1.5em;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+a.more-link {
+    box-shadow:inherit;
+	transition: 0.5s;
+    margin-top: 20px;
+    min-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 200px;
+}
+a.more-link:hover{
+	background: #ccc;
+}
+.footer-widget-area .widget {
+    box-shadow: inherit;
+    background: inherit;
+}
+
+@media only screen and (max-width: 991px) {
+	body{
+	font-size:16px
+	}
+	.site-main article {
+    margin-bottom: 50px;
+	}
+	aside section.widget {
+    margin-bottom: 30px;
+	}
+
+
+
+}
