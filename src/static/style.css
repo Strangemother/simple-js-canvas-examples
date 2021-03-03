@@ -1,0 +1,81 @@
+h1 {
+    font-size: 7rem;
+    display: flex;
+    padding: 0;
+    margin: 0 0 0px 7rem;
+}
+
+.torch-image {
+    background: url('../0.png');
+    width: 67vw;
+    /* min-height: 500px; */
+    background-size: 45vw;
+    background-repeat: no-repeat;
+    background-position: 13vw 1em;
+    outline: solid 1px #DDD;
+    margin-top: 0em;
+    outline: solid 1px red;
+    z-index: 1;
+    height: auto;
+    margin: 3vh auto 0;
+}
+
+header {
+    display: flex;
+    outline: solid 1px red;
+    position: relative;
+    min-height: 98vh;
+}
+
+.torch-container {
+    position: absolute;
+    min-height: 100%;
+    /* outline: solid; */
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+}
+
+.title-container {
+    /* padding: 4rem; */
+    display: flex;
+    /* outline: solid; */
+    max-width: 50vw;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+
+.main-mountain-image {
+    background: url('back.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    background-size: 103%;
+    background-position: 0 min(18vh, 40vw);
+}
+
+.main-mountain {
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.main-mountain-container {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    /* background: #a4a48b; */
+}
+
+
+body {
+    margin: 0;
+    /* background: #000; */
+}
